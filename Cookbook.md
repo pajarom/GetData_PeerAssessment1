@@ -57,79 +57,153 @@ Additional vectors obtained by averaging the signals in a signal window sample. 
 The goal of this project is to provide a **single** dataset with the average value on the mean and standard deviation for each measurement provided in the original data set for each activity and each subject. The following features averages are provided in this new data set:
 
  [1,] "Activity"                             "1" 
+ 
  [2,] "Subject"                              "2" 
+
  [3,] "tBodyAcc-mean()-X"                    "3" 
+
  [4,] "tBodyAcc-mean()-Y"                    "4" 
+
  [5,] "tBodyAcc-mean()-Z"                    "5" 
+
  [6,] "tBodyAcc-std()-X"                     "6" 
+
  [7,] "tBodyAcc-std()-Y"                     "7" 
+
  [8,] "tBodyAcc-std()-Z"                     "8" 
+
  [9,] "tGravityAcc-mean()-X"                 "9" 
+
 [10,] "tGravityAcc-mean()-Y"                 "10"
+
 [11,] "tGravityAcc-mean()-Z"                 "11"
+
 [12,] "tGravityAcc-std()-X"                  "12"
+
 [13,] "tGravityAcc-std()-Y"                  "13"
+
 [14,] "tGravityAcc-std()-Z"                  "14"
+
 [15,] "tBodyAccJerk-mean()-X"                "15"
+
 [16,] "tBodyAccJerk-mean()-Y"                "16"
+
 [17,] "tBodyAccJerk-mean()-Z"                "17"
+
 [18,] "tBodyAccJerk-std()-X"                 "18"
+
 [19,] "tBodyAccJerk-std()-Y"                 "19"
+
 [20,] "tBodyAccJerk-std()-Z"                 "20"
+
 [21,] "tBodyGyro-mean()-X"                   "21"
+
 [22,] "tBodyGyro-mean()-Y"                   "22"
+
 [23,] "tBodyGyro-mean()-Z"                   "23"
+
 [24,] "tBodyGyro-std()-X"                    "24"
+
 [25,] "tBodyGyro-std()-Y"                    "25"
+
 [26,] "tBodyGyro-std()-Z"                    "26"
+
 [27,] "tBodyGyroJerk-mean()-X"               "27"
+
 [28,] "tBodyGyroJerk-mean()-Y"               "28"
+
 [29,] "tBodyGyroJerk-mean()-Z"               "29"
+
 [30,] "tBodyGyroJerk-std()-X"                "30"
+
 [31,] "tBodyGyroJerk-std()-Y"                "31"
+
 [32,] "tBodyGyroJerk-std()-Z"                "32"
+
 [33,] "tBodyAccMag-mean()"                   "33"
+
 [34,] "tBodyAccMag-std()"                    "34"
+
 [35,] "tGravityAccMag-mean()"                "35"
+
 [36,] "tGravityAccMag-std()"                 "36"
+
 [37,] "tBodyAccJerkMag-mean()"               "37"
+
 [38,] "tBodyAccJerkMag-std()"                "38"
+
 [39,] "tBodyGyroMag-mean()"                  "39"
+
 [40,] "tBodyGyroMag-std()"                   "40"
+
 [41,] "tBodyGyroJerkMag-mean()"              "41"
+
 [42,] "tBodyGyroJerkMag-std()"               "42"
+
 [43,] "fBodyAcc-mean()-X"                    "43"
+
 [44,] "fBodyAcc-mean()-Y"                    "44"
+
 [45,] "fBodyAcc-mean()-Z"                    "45"
+
 [46,] "fBodyAcc-std()-X"                     "46"
+
 [47,] "fBodyAcc-std()-Y"                     "47"
+
 [48,] "fBodyAcc-std()-Z"                     "48"
+
 [49,] "fBodyAccJerk-mean()-X"                "49"
+
 [50,] "fBodyAccJerk-mean()-Y"                "50"
+
 [51,] "fBodyAccJerk-mean()-Z"                "51"
+
 [52,] "fBodyAccJerk-std()-X"                 "52"
+
 [53,] "fBodyAccJerk-std()-Y"                 "53"
+
 [54,] "fBodyAccJerk-std()-Z"                 "54"
+
 [55,] "fBodyGyro-mean()-X"                   "55"
+
 [56,] "fBodyGyro-mean()-Y"                   "56"
+
 [57,] "fBodyGyro-mean()-Z"                   "57"
+
 [58,] "fBodyGyro-std()-X"                    "58"
+
 [59,] "fBodyGyro-std()-Y"                    "59"
+
 [60,] "fBodyGyro-std()-Z"                    "60"
+
 [61,] "fBodyAccMag-mean()"                   "61"
+
 [62,] "fBodyAccMag-std()"                    "62"
+
 [63,] "fBodyBodyAccJerkMag-mean()"           "63"
+
 [64,] "fBodyBodyAccJerkMag-std()"            "64"
+
 [65,] "fBodyBodyGyroMag-mean()"              "65"
+
 [66,] "fBodyBodyGyroMag-std()"               "66"
+
 [67,] "fBodyBodyGyroJerkMag-mean()"          "67"
+
 [68,] "fBodyBodyGyroJerkMag-std()"           "68"
+
 [69,] "angle(tBodyAccMean,gravity)"          "69"
+
 [70,] "angle(tBodyAccJerkMean),gravityMean)" "70"
+
 [71,] "angle(tBodyGyroMean,gravityMean)"     "71"
+
 [72,] "angle(tBodyGyroJerkMean,gravityMean)" "72"
+
 [73,] "angle(X,gravityMean)"                 "73"
+
 [74,] "angle(Y,gravityMean)"                 "74"
+
 [75,] "angle(Z,gravityMean)"                 "75"
 
 ## The Data Processing
